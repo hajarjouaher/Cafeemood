@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe Mood - Food and Drink Menu</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/templatemo-style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="x-icon" />
+
+  
+
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <!-- End Preloader -->
+    <div class="tm-top-header">
+      <div class="container">
+        <div class="row">
+          <div class="tm-top-header-inner">
+            <div class="tm-logo-container">
+              <img src="Logo.png" alt="Logo" class="tm-site-logo" style="width: 55px; height:55px; object-fit:contain;">
+              <h1 class="tm-site-name tm-handwriting-font">Cafe Mood</h1>
+            </div>
+            <div class="mobile-menu-icon">
+              <i class="fa fa-bars"></i>
+            </div>
+            <nav class="tm-nav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="today-special.html">Today Special</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>   
+          </div>           
+        </div>    
+      </div>
+    </div>
+    <section class="tm-welcome-section">
+      <div class="container tm-position-relative">
+        <div class="tm-lights-container">
+          <img src="light.png" alt="Light" class="light light-1">
+          <img src="light.png" alt="Light" class="light light-2">
+          <img src="light.png" alt="Light" class="light light-3">  
+        </div>        
+        <div class="row tm-welcome-content">
+          <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="header-line.png" alt="Line" class="tm-header-line">&nbsp;Our Menus&nbsp;&nbsp;<img src="header-line.png" alt="Line" class="tm-header-line"></h2>
+          <h2 class="gold-text tm-welcome-header-2">Cafe Mood</h2>
+          <p class="gray-text tm-welcome-description">
+Our menu at Coffee Mood is carefully designed to offer a perfect balance of rich coffee flavors and delicious snacks.
+<span id="moreText" style="display:none;">
+From strong espresso shots to smooth cappuccinos and sweet treats, every item is prepared with passion to give you a warm and cozy café experience. Explore our selection and find your perfect taste for every moment of the day.
+</span>
+</p>
+
+<a href="#" class="tm-more-button tm-more-button-welcome" onclick="toggleText(event)">
+  Read More
+</a>  
+        </div>
+        <img src="table-set.png" alt="Table Set" class="tm-table-set img-responsive">  
+      </div>      
+    </section>
+       
+                    
+            <section style="
+  padding:90px 20px;
+  background:#0f0b08;
+  color:white;
+  text-align:center;
+  overflow:hidden;
+">
+
+  <!-- TITLE -->
+  <h2 style="
+    font-size:42px;
+    color:#f5d6a0;
+    margin-bottom:10px;
+    animation:fadeDown 1s ease;
+  ">
+    Artisan Coffee Collection
+  </h2>
+
+  <div style="
+    width:90px;
+    height:2px;
+    background:#c79c60;
+    margin:0 auto 40px;
+    animation:lineGrow 1.2s ease;
+  "></div>
+
+  <!-- GRID -->
+  <div style="
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
+  ">
+
+    <!-- ITEM 1 -->
+    <div class="card">
+      <img src="cappu.webp">
+      <h3>Cappuccino</h3>
+      <p>Smooth foam + rich espresso</p>
+      <span>$6.50</span>
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="card">
+      <img src="Latte.jfif">
+      <h3>Latte</h3>
+      <p>Soft milk coffee comfort</p>
+      <span>$7.00</span>
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="card">
+      <img src="Mocha-cafe.jfif">
+      <h3>Mocha</h3>
+      <p>Chocolate coffee blend</p>
+      <span>$7.50</span>
+    </div>
+
+    <!-- ITEM 4 -->
+    <div class="card">
+      <img src="iced-cafe.png">
+      <h3>Cold Brew</h3>
+      <p>Strong chilled coffee</p>
+      <span>$8.00</span>
+    </div>
+
+    <!-- ITEM 5 -->
+    <div class="card">
+      <img src="Affogato.jfif">
+      <h3>Affogato</h3>
+      <p>Ice cream + espresso</p>
+      <span>$9.50</span>
+    </div>
+
+    <!-- ITEM 6 -->
+    <div class="card">
+      <img src="Macha-cafe.jfif">
+      <h3>Matcha Coffee</h3>
+      <p>Green tea coffee fusion</p>
+      <span>$8.50</span>
+    </div>
+<div class="card">
+      <img src="Macchiato.jfif">
+      <h3>Macchiato</h3>
+      <p>Classic Macchiato Blend</p>
+      <span>$7.20</span>
+    </div>
+ <!-- ITEM 7 -->
+    <div class="card">
+      <img src="flat-white.png">
+      <h3>Flat White</h3>
+      <p>Velvet Espresso Balance</p>
+      <span>$7.80</span>
+    </div>
+  </div>
+
+</section>
+
+
+<style>
+
+/* CARD DESIGN */
+.card{
+  background:rgba(255,255,255,0.05);
+  border-radius:18px;
+  padding:15px;
+  text-align:center;
+  transition:0.5s;
+  opacity:0;
+  transform:translateY(50px);
+  animation:cardIn 1s forwards;
+}
+
+.card:nth-child(1){animation-delay:0.2s;}
+.card:nth-child(2){animation-delay:0.4s;}
+.card:nth-child(3){animation-delay:0.6s;}
+.card:nth-child(4){animation-delay:0.8s;}
+.card:nth-child(5){animation-delay:1s;}
+.card:nth-child(6){animation-delay:1.2s;}
+
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:12px;
+  transition:0.5s;
+}
+
+/* HOVER EFFECT */
+.card:hover{
+  transform:translateY(-10px) scale(1.03);
+  box-shadow:0 15px 40px rgba(199,156,96,0.3);
+}
+
+.card:hover img{
+  transform:scale(1.1);
+  filter:brightness(1.2);
+}
+
+.card h3{
+  color:#f5d6a0;
+  margin:10px 0 5px;
+}
+
+.card p{
+  color:#cfc3b8;
+  font-size:13px;
+}
+
+.card span{
+  display:block;
+  margin-top:8px;
+  color:#c79c60;
+  font-size:18px;
+  font-weight:bold;
+}
+
+/* ANIMATIONS */
+@keyframes fadeDown{
+  from{opacity:0; transform:translateY(-20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+@keyframes lineGrow{
+  from{transform:scaleX(0);}
+  to{transform:scaleX(1);}
+}
+
+@keyframes cardIn{
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+</style>   
+<section style="
+  padding:100px 20px;
+  background:radial-gradient(circle at top, #1a120e, #0b0705);
+  text-align:center;
+  color:white;
+">
+
+  <h2 style="
+    font-size:42px;
+    color:#f5d6a0;
+    margin-bottom:10px;
+    letter-spacing:2px;
+    animation:fadeDown 1s ease;
+  ">
+    Luxury Dessert Selection
+  </h2>
+
+  <div style="
+    width:100px;
+    height:2px;
+    background:#c79c60;
+    margin:0 auto 50px;
+    box-shadow:0 0 20px #c79c60;
+    animation:lineGlow 2s infinite alternate;
+  "></div>
+
+  <!-- GRID -->
+  <div style="
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
+  ">
+
+    <!-- ITEM -->
+    <div class="dessert-card">
+      <img src="cafe-cake.jfif">
+      <h3>Café Cake</h3>
+      <p>Soft coffee cake with creamy layers. <br><b>Try with Cappuccino ☕</b></p>
+      <span>$12.00</span>
+    </div>
+
+    <div class="dessert-card">
+      <img src="muffin-cake.jfif">
+      <h3>Muffin Cake</h3>
+      <p>Fresh baked buttery muffin. <br><b>Perfect with Latte ☕</b></p>
+      <span>$10.50</span>
+    </div>
+
+    <div class="dessert-card">
+      <img src="lemon-cake.jfif">
+      <h3>Lemon Cake</h3>
+      <p>Fresh citrus soft sponge cake. <br><b>Best with Cold Brew 🧊</b></p>
+      <span>$11.00</span>
+    </div>
+
+    <div class="dessert-card">
+      <img src="tiramisu.jfif">
+      <h3>Tiramisu</h3>
+      <p>Classic Italian creamy dessert. <br><b>Pairs with Espresso ☕</b></p>
+      <span>$14.00</span>
+    </div>
+
+    <div class="dessert-card">
+      <img src="american cookies.jfif">
+      <h3>American Cookie</h3>
+      <p>Crunchy chocolate chip cookie. <br><b>Try with Mocha 🍫</b></p>
+      <span>$9.50</span>
+    </div>
+
+    <div class="dessert-card">
+      <img src="Mathilda-cake.jpg">
+      <h3>Matilda Cake</h3>
+      <p>Rich chocolate indulgence cake. <br><b>Best with Flat White ☕</b></p>
+      <span>$15.00</span>
+    </div>
+
+    <div class="dessert-card">
+      <img src="croissant.jpg">
+      <h3>Croissant</h3>
+      <p>Buttery crispy French pastry. <br><b>Perfect with Cappuccino ☕</b></p>
+      <span>$8.50</span>
+    </div>
+
+    <div class="dessert-card">
+      <img src="cinnamon roll.jfif">
+      <h3>Cinnamon Roll</h3>
+      <p>Sweet spiced creamy roll. <br><b>Best with Latte ☕</b></p>
+      <span>$9.00</span>
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+
+/* CARD */
+.dessert-card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(199,156,96,0.25);
+  border-radius:18px;
+  overflow:hidden;
+  padding-bottom:20px;
+  transition:0.5s;
+  opacity:0;
+  transform:translateY(60px) scale(0.95);
+  animation:cardIn 1s forwards;
+}
+
+/* images */
+.dessert-card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  transition:0.5s;
+}
+
+/* text */
+.dessert-card h3{
+  color:#f5d6a0;
+  margin:10px 0 5px;
+}
+
+.dessert-card p{
+  color:#cfc3b8;
+  font-size:13px;
+  line-height:1.5;
+  padding:0 10px;
+}
+
+.dessert-card span{
+  display:block;
+  margin-top:10px;
+  color:#c79c60;
+  font-size:18px;
+  font-weight:bold;
+  text-shadow:0 0 10px rgba(199,156,96,0.5);
+}
+
+/* HOVER WOW */
+.dessert-card:hover{
+  transform:translateY(-15px) scale(1.05);
+  box-shadow:0 0 30px rgba(199,156,96,0.4);
+}
+
+.dessert-card:hover img{
+  transform:scale(1.1);
+  filter:brightness(1.2);
+}
+
+/* ANIMATION */
+@keyframes cardIn{
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeDown{
+  from{opacity:0; transform:translateY(-20px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+@keyframes lineGlow{
+  from{box-shadow:0 0 5px #c79c60;}
+  to{box-shadow:0 0 25px #c79c60;}
+}
+
+</style>
+<footer>
+
+  <div class="tm-black-bg">
+    <div class="container">
+
+      <div class="row margin-bottom-60">
+
+        <!-- MENU -->
+        <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
+          <h3 class="tm-footer-div-title">Explore</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Signature Picks</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- ABOUT -->
+        <div class="col-lg-5 col-md-5 tm-footer-div">
+          <h3 class="tm-footer-div-title">About Coffee Mood</h3>
+
+          <p class="margin-top-15">
+            Coffee Mood is a cozy café experience where passion meets flavor.
+            We carefully craft every cup using premium coffee beans to deliver a rich and memorable taste.
+          </p>
+
+          <p class="margin-top-15">
+            From strong espresso to sweet coffee moments, we bring you a unique atmosphere
+            designed for coffee lovers who appreciate quality and comfort.
+          </p>
+        </div>
+
+        <!-- SOCIAL -->
+        <div class="col-lg-4 col-md-4 tm-footer-div">
+          <h3 class="tm-footer-div-title">Stay Connected</h3>
+
+          <p>
+            Follow us for daily coffee inspiration, new flavors, and special offers.
+          </p>
+
+          <div class="tm-social-icons-container">
+
+            <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="tm-social-icon"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  
+  <div>
+    <div class="container">
+      <div class="row tm-copyright">
+
+        <p class="col-lg-12 small copyright-text text-center">
+          © 2026 Coffee Mood. Crafted with passion for premium coffee experiences.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+</footer><!-- Footer content-->  
+
+ 
+   <!-- JS -->
+   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>     
+   <script type="text/javascript" src="js/templatemo-script.js"></script>     
+   <script>
+function toggleText(event){
+  event.preventDefault();
+
+  let moreText = document.getElementById("moreText");
+
+  if(moreText.style.display === "none"){
+    moreText.style.display = "inline";
+  } else {
+    moreText.style.display = "none";
+  }
+}
+</script>
+
+ </body>
+ </html>

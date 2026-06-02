@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Coffee Moments</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#0f0f0f;
+      color:#fff;
+    }
+
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:60px;
+      gap:60px;
+      flex-wrap:wrap;
+      background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)),
+        url('img/coffee-bg.jpg');
+      background-size:cover;
+      background-position:center;
+    }
+
+    .image-box img{
+      width:520px;
+      height:400px;
+      object-fit:cover;
+      border-radius:22px;
+      box-shadow:0 20px 50px rgba(0,0,0,0.5);
+      animation:float 4s ease-in-out infinite;
+      transition:0.4s;
+    }
+
+    .image-box img:hover{
+      transform:scale(1.03);
+    }
+
+    .content{
+      max-width:550px;
+      animation:fadeUp 1s ease;
+    }
+
+    .tag{
+      color:#c79c60;
+      letter-spacing:3px;
+      font-size:14px;
+      margin-bottom:15px;
+      text-transform:uppercase;
+    }
+
+    h1{
+      font-size:58px;
+      margin-bottom:20px;
+    }
+
+    p{
+      color:#d3d3d3;
+      line-height:1.8;
+      font-size:18px;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:14px 32px;
+      background:#c79c60;
+      color:#fff;
+      text-decoration:none;
+      border-radius:40px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:translateY(-5px);
+      box-shadow:0 10px 25px rgba(199,156,96,0.4);
+    }
+
+    .mini-section{
+      padding:80px 10%;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:30px;
+      background:#151515;
+    }
+
+    .mini-card{
+      width:280px;
+      padding:25px;
+      background:#1e1e1e;
+      border-radius:18px;
+      text-align:center;
+      transition:0.4s;
+    }
+
+    .mini-card:hover{
+      transform:translateY(-10px);
+      background:#262626;
+    }
+
+    .mini-card h3{
+      color:#c79c60;
+      margin-bottom:10px;
+    }
+
+    .mini-card p{
+      font-size:14px;
+      color:#ccc;
+      line-height:1.6;
+    }
+
+    @keyframes fadeUp{
+      from{opacity:0; transform:translateY(40px);}
+      to{opacity:1; transform:translateY(0);}
+    }
+
+    @keyframes float{
+      0%{transform:translateY(0);}
+      50%{transform:translateY(-12px);}
+      100%{transform:translateY(0);}
+    }
+
+    @media(max-width:900px){
+      h1{font-size:42px;}
+      .image-box img{width:100%; height:auto;}
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <section class="hero">
+
+    <div class="image-box">
+      <img src="special-3.jpg" alt="Sweet Coffee Moments">
+    </div>
+
+    <div class="content">
+
+      <div class="tag">Coffee Mood Selection</div>
+
+      <h1>Sweet Coffee Moments</h1>
+
+      <p>
+        Enjoy warm coffee paired with delightful sweets for a cozy and relaxing experience.
+        Every sip and bite is designed to bring comfort and happiness to your coffee break.
+      </p>
+
+      <a href="index.html" class="btn">Back to Home</a>
+
+    </div>
+
+  </section>
+
+  <section class="mini-section">
+
+    <div class="mini-card">
+      <h3>Sweet Pairing</h3>
+      <p>Perfect combination of coffee and desserts for a balanced taste.</p>
+    </div>
+
+    <div class="mini-card">
+      <h3>Cozy Moments</h3>
+      <p>Relax and enjoy soft flavors in a warm café atmosphere.</p>
+    </div>
+
+    <div class="mini-card">
+      <h3>Daily Treat</h3>
+      <p>A little sweet escape to brighten your everyday coffee time.</p>
+    </div>
+
+  </section>
+
+</body>
+</html>
